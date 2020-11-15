@@ -1,0 +1,17 @@
+public class Main {
+    public static void main(String[]args){
+        Calc obj = new Calc();
+        System.out.println(obj.add(10,3));
+        System.out.println(obj.sub(8,5));
+    }
+}
+class Calc{
+    int add(int a, int b){
+        a+=b;
+        return a;
+    }
+    int sub(int a,int b){
+        a-=b;
+        return a;
+    }
+}
